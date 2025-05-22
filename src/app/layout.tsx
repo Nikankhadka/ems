@@ -17,11 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gradient-to-br from-pink-100 via-purple-100 to-blue-100 min-h-screen`}>
+      <body className={inter.className}>
         <Navigation />
-        <div className="pt-16">
+        <main>
           {children}
-        </div>
+        </main>
       </body>
     </html>
   )
